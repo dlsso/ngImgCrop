@@ -1399,7 +1399,7 @@ crop.factory('cropHost', ['$document', 'cropAreaCircle', 'cropAreaSquare', 'crop
         theArea=null;
 
     // Dimensions
-    var minCanvasDims=[100,100],
+    var minCanvasDims=[300,300],
         maxCanvasDims=[300,300];
 
     // Result Image size
